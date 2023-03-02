@@ -1,0 +1,3 @@
+creade my-sql image docker
+docker: Invalid containerPort: w.
+ docker run --detach --env MYSQL_USER=root --env MYSQL_ROOT_PASSWORD=Aai@2070 --env MYSQL_PASSWORD=root --env MYSQL_DATABASE=parkingshema   mysql --publish 3306:3306 mysql:8-oracle
